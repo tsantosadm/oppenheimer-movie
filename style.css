@@ -1,0 +1,88 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   height: 100vh;
+   background-image: url(./assets/openhimmer.png);
+   background-position: center;
+}
+
+body * {
+   font-family: 'Arimo', sans-serif;
+   color: white;
+}
+
+#container {
+   width: 100%;
+   margin: 0px auto 0px;
+}
+
+/** Header/Actors **/
+#actors {
+   width: 100%;
+   display: flex;
+   /* background-color: blueviolet; */
+   justify-content: space-between;
+   padding: 30px 50px;
+}
+
+#pair-one, #pair-two {
+   width: 350px;
+   display: flex;
+   text-align: center;
+   justify-content: space-between;
+   /* background-color: rgb(138, 75, 75);    */
+}
+
+#pair-one a, #pair-two a {
+   text-decoration: none;
+}
+
+#pair-one span, #pair-two span {
+   font-size: 24px;
+}
+
+#content {
+   margin-top: 360px;
+   height: 100%;
+   width: 100%;
+   text-align: center;
+   justify-content: center;
+   /* background-color: rgb(46, 90, 75); */
+   display: flex;
+}
+
+#content #film-by {
+   font-size: 12px;
+   word-spacing: 2px;
+   letter-spacing: 7px;
+}
+
+#info-film {
+   width: 650px;
+   /* background-color: rgb(67, 122, 86); */
+   text-align: center;
+}
+
+#info-film p {
+   font-size: 60px;
+   letter-spacing: 18px;
+   color: #ed6231;
+}
+
+#content #director {
+   font-size: 20px;
+   word-spacing: 2px;
+   letter-spacing: 10px;
+   margin-left: 25px;
+}
+
+footer {
+   width: 100%;
+   display: flex;
+   margin-bottom: auto;
+   justify-content: space-around;
+}
